@@ -271,3 +271,44 @@ python manage.py runserver 8656
 
 ¿Deseas que te genere **todo el código base (views.py, urls.py y plantillas HTML)** para este modelo “Profesor”?
 Puedo darte una versión funcional y visualmente agradable con Bootstrap.
+
+UIII_Preparatoria_0656/
+│
+├── .venv/                              ← Entorno virtual
+│
+├── backend_Preparatoria/               ← Carpeta principal del proyecto Django
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── app_Preparatoria/                   ← Aplicación principal
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── views.py
+│   ├── urls.py                         ← Archivo creado por ti para las rutas CRUD
+│   │
+│   ├── migrations/                     ← Carpeta generada automáticamente
+│   │   └── __init__.py
+│   │
+│   └── templates/                      ← Carpeta para las vistas HTML
+│       ├── base.html                   ← Estructura principal (con Bootstrap)
+│       ├── header.html                 ← Encabezado del sitio
+│       ├── navbar.html                 ← Barra de navegación con menús
+│       ├── footer.html                 ← Pie de página fijo
+│       ├── inicio.html                 ← Página principal del sistema
+│       │
+│       └── profesor/                   ← Subcarpeta para las vistas del modelo Profesor
+│           ├── agregar_profesor.html
+│           ├── ver_profesor.html
+│           ├── actualizar_profesor.html
+│           └── borrar_profesor.html
+│
+├── manage.py                           ← Archivo principal de Django
+│
+└── requirements.txt                    ← (Opcional) Dependencias del proyecto
+

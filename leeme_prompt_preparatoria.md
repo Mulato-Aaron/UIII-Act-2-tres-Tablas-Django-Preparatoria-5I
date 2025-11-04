@@ -272,6 +272,7 @@ python manage.py runserver 8656
 ¿Deseas que te genere **todo el código base (views.py, urls.py y plantillas HTML)** para este modelo “Profesor”?
 Puedo darte una versión funcional y visualmente agradable con Bootstrap.
 
+📁 Estructura del Proyecto Django
 UIII_Preparatoria_0656/
 │
 ├── .venv/                              ← Entorno virtual
@@ -311,4 +312,3 @@ UIII_Preparatoria_0656/
 ├── manage.py                           ← Archivo principal de Django
 │
 └── requirements.txt                    ← (Opcional) Dependencias del proyecto
-

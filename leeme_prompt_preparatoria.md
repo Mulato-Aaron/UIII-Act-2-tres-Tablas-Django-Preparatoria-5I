@@ -390,7 +390,7 @@ Pie de página fijo con la información solicitada.
                 Fecha del Sistema: {{ "now"|date:"d/m/Y H:i" }}
             </div>
             <div class="col-md-4 text-end">
-                Creado por **Aaron Nava, CBTis 128**
+                Creado por **Aaron Mulato, CBTis 128**
             </div>
         </div>
     </div>
